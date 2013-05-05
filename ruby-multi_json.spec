@@ -41,5 +41,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README.md CHANGELOG.md CONTRIBUTING.md LICENSE.md
 %{ruby_vendorlibdir}/%{pkgname}.rb
 %{ruby_vendorlibdir}/%{pkgname}
