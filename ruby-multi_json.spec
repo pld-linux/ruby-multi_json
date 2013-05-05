@@ -11,6 +11,13 @@ URL:		http://github.com/intridea/multi_json
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
 Requires:	ruby-rubygems >= 1.3.6
+# http://rubygems.org/gems/gson
+#Suggests:	ruby-gson
+# http://rubygems.org/gems/json
+#Suggests:	ruby-json
+# http://rubygems.org/gems/oj
+#Suggests:	ruby-oj
+Suggests:	ruby-yajl
 # https://fedorahosted.org/fpc/ticket/113
 Provides:	bundled(okjson) = 20110719
 BuildArch:	noarch
