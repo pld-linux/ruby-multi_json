@@ -2,7 +2,7 @@
 Summary:	A gem to provide swappable JSON backends
 Name:		ruby-%{pkgname}
 Version:	1.10.1
-Release:	3
+Release:	4
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
